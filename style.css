@@ -1,0 +1,40 @@
+.grid-wrapper {
+  display: grid;
+  height: 82vh;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+header {
+  background-color: burlywood;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+
+main {
+  text-align: left;
+  color: black;
+}
+
+section {
+  margin: 0;
+  background-color: burlywood;
+  min-height: 20dvh;
+}
+
+footer {
+  text-align: center;
+  background-color: burlywood;
+  color: black;
+  padding: 5px;
+}
+
+img {
+  max-width: 30%;
+}
