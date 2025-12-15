@@ -35,6 +35,11 @@ footer {
   padding: 5px;
 }
 
+aside {
+  background-color: black;
+  color: burlywood;
+}
+
 img {
   max-width: 25%;
 }
