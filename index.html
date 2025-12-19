@@ -1,67 +1,80 @@
-<!DOCTYPE html> <!-- Dokumenttyp -->
-<html lang="de"> <!-- Start des HTML-Dokuments, Sprache -->
-  <head> <!-- Kopfbereich -->
-    <meta charset="UTF-8"> <!-- Zeichencodierung UTF-8 (Umlaute, Sonderzeichen) -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Kompatibilität für ältere Internet-Explorer-Versionen -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsives Verhalten für mobile Geräte -->
-    <title>Eigene Webseite</title> <!-- Titel im Browser-Tab -->
+<!DOCTYPE html>
+<html lang="de"><!-- Dokumenttyp --><!-- Start des HTML-Dokuments, Sprache -->
+  <head><!-- Kopfbereich -->
+    <meta charset="UTF-8"><!-- Zeichencodierung UTF-8 (Umlaute, Sonderzeichen) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Kompatibilität für ältere Internet-Explorer-Versionen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Responsives Verhalten für mobile Geräte -->
+    <title>Eigene Webseite</title><!-- Titel im Browser-Tab -->
 
-    <link rel="stylesheet" href="style.css"> <!-- Verknüpfung zur externen CSS-Datei -->
-    <script src="./main.js" defer></script> <!-- Einbindung einer JavaScript-Datei (wird erst nach HTML geladen) -->
+    <link rel="stylesheet" href="style.css"><!-- Verknüpfung zur externen CSS-Datei -->
+    <script
+      src="./main.js"
+      defer
+    ></script><!-- Einbindung einer JavaScript-Datei (wird erst nach HTML geladen) -->
   </head>
 
-  <body class="grid-wrapper"> <!-- Body mit CSS-Grid-Klasse für das Layout -->
-    <header style="grid-area: header;"> <!-- Header-Bereich, Grid-Zuweisung -->
-      <h1>Webseite von Lio Screti</h1> <!-- Hauptüberschrift -->
-      <button onclick="increaseCount()">click</button> <!-- Button, der beim Klicken eine JavaScript-Funktion ausführt -->
+  <body class="grid-wrapper"><!-- Body mit CSS-Grid-Klasse für das Layout -->
+    <header style="grid-area: header;"><!-- Header-Bereich, Grid-Zuweisung -->
+      <h1>Webseite von Lio Screti</h1><!-- Hauptüberschrift -->
+      <button onclick="increaseCount()">
+        click
+      </button><!-- Button, der beim Klicken eine JavaScript-Funktion ausführt -->
     </header>
 
-    <main style="grid-area: main;"> <!-- Hauptinhalt der Seite -->
-      <section> <!-- Ein Inhaltsabschnitt -->
-        <h2>Diese Website ist ein Steckbrief über mich</h2> <!-- Abschnittsüberschrift -->
+    <main style="grid-area: main;"><!-- Hauptinhalt der Seite -->
+      <section><!-- Ein Inhaltsabschnitt -->
+        <h2>
+          Diese Website ist ein Steckbrief über mich
+        </h2><!-- Abschnittsüberschrift -->
         Alles ist so geplant, strukturiert und gestaltet. Ich wünsche Ihnen viel
         Spass auf meiner Website! <!-- Beschreibungstext -->
       </section>
 
-      <section> <!-- Ein Inhaltsabschnitt -->
-        <h2>Allgemeines zu mir</h2> <!-- Abschnittsüberschrift -->
-        <p> <!-- Absatz für das Bild -->
+      <section><!-- Ein Inhaltsabschnitt -->
+        <h2>Allgemeines zu mir</h2><!-- Abschnittsüberschrift -->
+        <p><!-- Absatz für das Bild -->
           <img
-            src=https://media.istockphoto.com/id/1345388323/de/vektor/menschliche-silhouette-isoliertes-vektorsymbol.jpg?s=612x612&w=0&k=20&c=Y5eAYa0O_RxlRM1xNc2fOJWdgJeTEh9nkHurcp-RiW0=
-            > <!-- Bild -->
+            src="https://static.vecteezy.com/system/resources/previews/021/190/170/non_2x/information-info-outline-icon-in-transparent-background-basic-app-and-web-ui-bold-line-icon-eps10-free-vector.jpg"
+          ><!-- Bild -->
         </p>
-        <ul> <!-- Ungeordnete Liste -->
-          <li>Mein vollstädniger Name lautet Lio Matteo Screti</li> <!-- Listenpunkt -->
-          <li>Ich bin geboren am 12.08.2009</li> <!-- Listenpunkt -->
+        <ul><!-- Ungeordnete Liste -->
+          <li>
+            Mein vollstädniger Name lautet Lio Matteo Screti
+          </li><!-- Listenpunkt -->
+          <li>Ich bin geboren am 12.08.2009</li><!-- Listenpunkt -->
           <li>
             Ich lebe zusammen mit meinen Eltern und meiner älteren und einzigen
             Schwester
-          </li> <!-- Listenpunkt -->
+          </li><!-- Listenpunkt -->
           <li>
             Meine Mutter ist zu 100% Schweizerin und mein Vater ist zu 100%
             Italiener
-          </li> <!-- Listenpunkt -->
+          </li><!-- Listenpunkt -->
           <li>
             Ich bin Fan des lokalen Clubs, FC Basel 1893 und des Italienischen
             Clubs FC Internazionale Milano
-          </li> <!-- Listenpunkt -->
+          </li><!-- Listenpunkt -->
         </ul>
       </section>
 
-      <section> <!-- Ein Inhaltsabschnitt -->
-        <h2>Meine Hobbies</h2> <!-- Abschnittsüberschrift -->
-        <p> <!-- Absatz -->
+      <section><!-- Ein Inhaltsabschnitt -->
+        <h2>Meine Hobbies</h2><!-- Abschnittsüberschrift -->
+        <p><!-- Absatz -->
           Hier können Sie zu meinen
-          <a href="./unterseiten/hobbies.html"> Hobbies </a> <!-- Link zu einer Unterseite -->
+          <a href="./unterseiten/hobbies.html">
+            Hobbies
+          </a><!-- Link zu einer Unterseite -->
           weitergeleitet werden.
         </p>
       </section>
 
-      <section> <!-- Ein Inhaltsabschnitt -->
-        <h2>Meine Schulkarriere</h2> <!-- Abschnittsüberschrift -->
-        <p> <!-- Absatz -->
+      <section><!-- Ein Inhaltsabschnitt -->
+        <h2>Meine Schulkarriere</h2><!-- Abschnittsüberschrift -->
+        <p><!-- Absatz -->
           Zwei Drittel von meiner
-          <a href="./unterseiten/Schulkarriere.html">Schulkarriere</a> <!-- Link zu einer Unterseite -->
+          <a href="./unterseiten/Schulkarriere.html"
+            >Schulkarriere</a
+          ><!-- Link zu einer Unterseite -->
           habe ich in meinem Heimatsdorf Pratteln und das andere Drittel in dem
           Nachbarsdorf Muttenz verbracht.
         </p>
@@ -69,19 +82,19 @@
     </main>
 
     <aside style="grid-area: aside">
-      <nav> <!-- Navigation Hobbies -->
-        <ul> <!-- Ungeordnete Liste -->
-          <li> <!-- Listenpunkt -->
+      <nav><!-- Navigation Hobbies -->
+        <ul><!-- Ungeordnete Liste -->
+          <li><!-- Listenpunkt -->
             <a href="./unterseiten/hobbies.html"
-              ><svg width, height="30" viewBox="0 0 64 64"> <!-- Link zu Unterwebseite -->
-                <!-- Stange -->
+              ><svg width, height="30" viewBox="0 0 64 64"><!-- Link zu Unterwebseite -->
+                <!-- Icon, Stange -->
                 <rect x="16" y="42" width="32" height="4" fill="#000000"/>
 
-                <!-- Gewicht links -->
+                <!-- Icon, Gewicht links -->
                 <rect x="10" y="38" width="6" height="12" fill="#000000"/>
                 <rect x="6" y="36" width="4" height="16" fill="#000000"/>
 
-                <!-- Gewicht rechts -->
+                <!-- Icon, Gewicht rechts -->
                 <rect x="48" y="38" width="6" height="12" fill="#000000"/>
                 <rect x="54" y="36" width="4" height="16" fill="#000000"/>
               </svg>
@@ -90,16 +103,16 @@
           </li>
         </ul>
       </nav>
-      <nav> <!-- Navigation Freunde -->
-        <ul> <!-- Ungeordnete Liste -->
-          <li> <!-- Listenpunkt -->
+      <nav><!-- Navigation Freunde -->
+        <ul><!-- Ungeordnete Liste -->
+          <li><!-- Listenpunkt -->
             <a href="./unterseiten/Freunde.html"
-              ><svg width, height="30" viewBox="0 0 64 64"> <!-- Link zu Unterwebseite -->
-                <!-- Köpfe -->
+              ><svg width, height="30" viewBox="0 0 64 64"><!-- Link zu Unterwebseite -->
+                <!-- Icon, Köpfe -->
                 <circle cx="18" cy="18" r="7" fill="#000000"/>
                 <circle cx="46" cy="18" r="7" fill="#000000"/>
 
-                <!-- Körper -->
+                <!-- Icon, Körper -->
                 <rect x="10" y="30" width="16" height="22" fill="#000000"/>
                 <rect x="38" y="30" width="16" height="22" fill="#000000"/>
               </svg>
@@ -108,26 +121,26 @@
           </li>
         </ul>
       </nav>
-      <nav> <!-- Navigation Schulkarriere -->
-        <ul> <!-- Ungeordnete Liste -->
-          <li> <!-- Listenpunkt -->
+      <nav><!-- Navigation Schulkarriere -->
+        <ul><!-- Ungeordnete Liste -->
+          <li><!-- Listenpunkt -->
             <a href="./unterseiten/Schulkarriere.html"
-              ><svg width, height="30" viewBox="0 0 64 64"> <!-- Link zu Unterwebseite -->
-                <!-- Buch 1 -->
+              ><svg width, height="30" viewBox="0 0 64 64"><!-- Link zu Unterwebseite -->
+                <!-- Icon, Buch 1 -->
                 <rect x="12" y="36" width="40" height="10" fill="#000000"/>
                 <rect x="16" y="38" width="4" height="6" fill="#000000"/>
                 width="40" height="10" fill="#000000"/>
                 <rect x="14" y="28" width="4" height="6" fill="#000000"/>
                 <circle cx="44" cy="31" r="2" fill="#000000"/>
 
-                <!-- Buch 3 -->
+                <!-- Icon, Buch 3 -->
                 <rect x="14" y="16" width="40" height="10" fill="#000000"/>
                 <rect x="18" y="18" width="4" height="6" fill="#000000"/>
                 <circle cx="48" cy="21" r="2" fill="#000000"/>
               </svg>
               <circle cx="46" cy="41" r="2" fill="#ffffff"/>
 
-              <!-- Buch 2 -->
+              <!-- Icon, Buch 2 -->
               <rect x="10" y="26"></rect>Schulkarriere</a
             >
           </li>
@@ -135,6 +148,8 @@
       </nav>
     </aside>
 
-    <footer style="grid-area: footer">Meine Webseite</footer> <!-- Footer-Bereich -->
+    <footer style="grid-area: footer">
+      Meine Webseite
+    </footer><!-- Footer-Bereich -->
   </body>
 </html>
