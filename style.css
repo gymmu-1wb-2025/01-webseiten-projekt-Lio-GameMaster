@@ -43,3 +43,15 @@ aside {
 img {
   max-width: 15%;
 }
+
+aside > nav > ul > li > a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+aside > nav > ul {
+  list-style: none;
+}
+
+
+/*kkkkk
