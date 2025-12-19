@@ -13,13 +13,13 @@ header {
   background-color: burlywood;
   padding: 20px;
   text-align: center;
-  color: black;
+  color: beige;
   text-decoration: underline;
 }
 
 main {
   text-align: left;
-  color: black;
+  color: beige;
 }
 
 section {
@@ -31,15 +31,15 @@ section {
 footer {
   text-align: center;
   background-color: burlywood;
-  color: black;
+  color: beige;
   padding: 5px;
 }
 
 aside {
-  background-color: black;
+  background-color: beige;
   color: burlywood;
 }
 
 img {
-  max-width: 25%;
+  max-width: 15%;
 }
