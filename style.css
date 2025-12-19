@@ -1,8 +1,10 @@
 .grid-wrapper {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 200px 1fr;
-  grid-template-rows: auto 1fr auto;
+  /* Grid-Container für das gesamte Seitenlayout */
+  display: grid; /* Aktiviert CSS Grid Layout */
+  height: 100vh; /*Höhe des Layouts*/
+  grid-template-columns: 200px 1fr; /*Zwei Spalten und restlicher Platz*/
+  grid-template-rows: auto 1fr auto; /* Drei Zeilen: Header, Inhalt, Footer */
+  /*definiert Anordnung der Layout-Bereiche*/
   grid-template-areas:
     "header header"
     "aside main"
@@ -10,48 +12,54 @@
 }
 
 header {
-  background-color: burlywood;
-  padding: 20px;
-  text-align: center;
-  color: beige;
-  text-decoration: underline;
+  /* Gestaltung des Header-Bereichs */
+  background-color: burlywood; /* Hintergrundfarbe */
+  padding: 20px; /* Innenabstand */
+  text-align: center; /* Text zentrieren */
+  color: beige; /* Schriftfarbe */
+  text-decoration: underline; /* Text unterstreichen */
 }
 
 main {
-  text-align: left;
-  color: beige;
+  /* Gestaltung von Hauptinhalt */
+  text-align: left; /* Text nach links */
+  color: beige; /* Schriftfarbe */
 }
 
 section {
-  margin: 0;
-  background-color: burlywood;
-  min-height: 20dvh;
+  /* Gestaltung von allgemeinen Sections */
+  margin: 0; /* Kein Außenabstand */
+  background-color: burlywood; /* Hintergrundfarbe */
+  min-height: 20dvh; /* Mindesthöhe */
 }
 
 footer {
-  text-align: center;
-  background-color: burlywood;
-  color: beige;
-  padding: 5px;
+  /* Footer-Gestaltung */
+  text-align: center; /* Text zentrieren */
+  background-color: burlywood; /* Hintergrundfarbe */
+  color: beige; /* Schriftfarbe */
+  padding: 5px; /* Innenabstand */
 }
 
 aside {
-  background-color: beige;
-  color: burlywood;
+  /* Sidebar */
+  background-color: beige; /* Hintergrundfarbe */
+  color: burlywood; /* Schriftfarbe */
 }
 
 img {
-  max-width: 15%;
+  /* Allgemein Bilder */
+  max-width: 15%; /* Maximale Breite des Bildes */
 }
 
 aside > nav > ul > li > a {
-  text-decoration: none;
-  color: #000;
-  display: block;
+  /* Links in der Navigationsleiste */
+  text-decoration: none; /* Text-Decoration, Unterstreichung wegnehmen */
+  color: #000; /* Schriftfarbe */
+  display: block; /* Erstellt Link zum Blockelemnt */
 }
+
 aside > nav > ul {
-  list-style: none;
+  /* Liste in der Navigationsleiste */
+  list-style: none; /* Stil der Aufzählungen, enfernt Punkte */
 }
-
-
-/*kkkkk
